@@ -10,7 +10,7 @@ export default function LayoutProvider({
   return (
     <div className="h-[-webkit-fill-available] w-full bg-foreground border rounded-lg relative overflow-hidden">
       <Header />
-      <div className="w-full h-full mb-16">{children}</div>
+      <div className="w-full h-full pb-16">{children}</div>
 
       <Footer />
     </div>
