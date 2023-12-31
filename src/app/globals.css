@@ -57,7 +57,7 @@
 .css-blurry-gradient-green {
   filter: blur(70px);
   height: 400px;
-  opacity: 0.2;
+  opacity: 0.35;
   width: 400px;
   z-index: 10;
 }
@@ -78,4 +78,14 @@
   position: fixed;
   right: 30%;
   rotate: 10deg;
+}
+
+@media screen and (max-width: 768px) {
+  .css-blurry-gradient-green {
+    top: 25%;
+    right: 5%;
+  }
+  .css-blurry-gradient-blue {
+    bottom: 5%;
+  }
 }
