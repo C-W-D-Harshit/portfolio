@@ -28,7 +28,7 @@ export default function Home() {
             </span>
           </p>
         </div>
-        <div className="h-full w-full lg:w-1/2 flex flex-col justify-center items-center">
+        <div className="h-full w-full lg:w-1/2 flex flex-col justify-center items-center p-6">
           <div className="relative home__image">
             <Image
               src="/profile.jpg"

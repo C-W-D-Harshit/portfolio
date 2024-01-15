@@ -10,31 +10,31 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="absolute bottom-0 h-16 lg:h-12 w-full border-t font font-medium flex justify-between text-lg lg:text-base text-secondary-gray bg-foreground z-20">
+    <div className="absolute bottom-0 h-16 lg:h-12 w-full border-t font font-medium flex justify-between text-base text-secondary-gray bg-foreground z-20">
       <div className="flex h-full">
         <div className="h-full flex items-center border-r px-3 lg:px-6 w-full lg:w-fit">
           find me in:
         </div>
         <Link
           href={`https://twitter.com/cwd_harshit`}
-          className="h-full flex items-center border-r px-6 hover:bg-hover-box transition-all duration-300 ease-in-out font-medium cursor-pointer"
+          className="h-full flex items-center border-r px-3 lg:px-6 hover:bg-hover-box transition-all duration-300 ease-in-out font-medium cursor-pointer"
           target="_blank"
         >
-          <TwitterIcon size={20} />
+          <TwitterIcon size={18} />
         </Link>
         <Link
           href={`https://www.linkedin.com/in/cwd-harshit`}
-          className="h-full flex items-center border-r px-6 hover:bg-hover-box transition-all duration-300 ease-in-out font-medium cursor-pointer"
+          className="h-full flex items-center border-r px-3 lg:px-6 hover:bg-hover-box transition-all duration-300 ease-in-out font-medium cursor-pointer"
           target="_blank"
         >
-          <LinkedinIcon size={20} />
+          <LinkedinIcon size={18} />
         </Link>
         <Link
           href={`https://www.instagram.com/cwd.harshit`}
-          className="h-full lg:flex items-center border-r px-6 hover:bg-hover-box transition-all duration-300 ease-in-out font-medium cursor-pointer hidden"
+          className="h-full lg:flex items-center border-r px-3 lg:px-6 hover:bg-hover-box transition-all duration-300 ease-in-out font-medium cursor-pointer hidden"
           target="_blank"
         >
-          <InstagramIcon size={20} />
+          <InstagramIcon size={18} />
         </Link>
       </div>
       <Link
