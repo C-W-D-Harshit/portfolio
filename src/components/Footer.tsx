@@ -10,7 +10,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="absolute bottom-0 h-16 lg:h-12 w-full border-t font font-medium flex justify-between text-lg lg:text-base text-secondary-gray bg-foreground">
+    <div className="absolute bottom-0 h-16 lg:h-12 w-full border-t font font-medium flex justify-between text-lg lg:text-base text-secondary-gray bg-foreground z-20">
       <div className="flex h-full">
         <div className="h-full flex items-center border-r px-3 lg:px-6 w-full lg:w-fit">
           find me in:
